@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FromFarm</title>
+    <style>
+      h1 {
+        font-size: 50px;
+        margin: 10px;
+        margin-left: 40%;
+      }
+      .seller {
+        display: grid;
+        grid-template-columns: 15% 15% 25% 35%;
+        column-gap: 5px;
+        border-width: 1px solid black;
+        padding: 6px;
+        margin: 4px;
+      }
+      #seller_list {
+        border-width: 2px solid black;
+        background-color: mediumaquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>FromFarm</h1>
+    <section>
+      <div id="seller_list">
+        <ul>
+          {% for seller in sellerlist %}
+          <li class="seller">
+            <div>{{ seller.name}}</div>
+            <div>{{ seller.phone_no }}</div>
+            <div>{{ seller.products }}</div>
+            <div>{{ seller.address }}</div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>

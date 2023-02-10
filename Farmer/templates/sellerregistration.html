@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="{% static 'farmerstyles.css' %}" rel="stylesheet" />
+    <title>Seller Registration</title>
+  </head>
+  <body>
+    <div id="seller_about">
+      <h1>Seller Registration</h1>
+      <p>
+        Register as seller to sell your products as a farmer either as retail or
+        wholesale:
+      </p>
+    </div>
+
+    <div id="seller_reg_form">
+      <form action="seller/" method="POST" id="sellerreg">
+        {% csrf_token %} {{ form }}
+        <input type="submit" value="Register" id="seller_register_link" />
+      </form>
+    </div>
+  </body>
+</html>

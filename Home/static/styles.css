@@ -1,0 +1,56 @@
+.links {
+  text-decoration: none;
+  font-size: 3rem;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+}
+.links:hover {
+  background-color: #c07e03;
+  border-radius: 15px;
+}
+#nav_tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eba117;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#title {
+  font-size: 5.2rem;
+}
+.text {
+  font-size: 15px;
+}
+.info {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+#farmers {
+  background-color: #22ee66;
+}
+#buyers {
+  background-color: #f7af29;
+}
+#laboratories {
+  background-color: #41bfe6;
+}
+.starters {
+  font-size: 40px;
+}
+#about_tag {
+  margin-left: 45%;
+  margin-top: 35px;
+  font-size: 40px;
+}
+#footer {
+  margin: 10px;
+  padding: 20px;
+  background-color: rgb(172, 184, 184);
+  border-radius: 20px;
+}

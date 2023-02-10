@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="{% static 'farmerstyles.css' %}" rel="stylesheet" />
+    <title>Labs</title>
+  </head>
+  <body>
+    <div id="booking_form">
+      <form action="booktest/" method="POST" id="bookingform">
+        {% csrf_token %} {{ form }}
+        <input type="submit" id="booktest_btn" value="Book Test" />
+      </form>
+    </div>
+    <div id="my_bookings">
+      <ul id="bookings_list">
+        {% for booking in bookings %}
+        <li class="bookings">
+          <div>{{ booking.bookingdate }}</div>
+          <div>{{ booking.labid }}</div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <h2 id="avai_labs">Available labs are as follows</h2>
+    <div id="lab_table">
+      <ul id="labs_list">
+        {% for lab in labs %}
+        <li class="lab_names">
+          <div>{{ lab.labid }}</div>
+          <div>{{ lab.labname }}</div>
+          <div>{{ lab.phone}}</div>
+          <div>{{ lab.place }}</div>
+          <div>{{ lab.address }}</div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </body>
+</html>

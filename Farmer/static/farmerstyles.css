@@ -1,0 +1,189 @@
+#login_form {
+  display: grid;
+  grid-template-columns: 250px 150px;
+  row-gap: 7px;
+}
+.errorlist {
+  display: none;
+}
+#login_btn {
+  grid-column: 1/-1;
+  justify-self: center;
+  height: 40px;
+  width: 155px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#login_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+  background-color: #74a336;
+  border-radius: 15px;
+  border-width: 1px solid black;
+  padding: 16px 8px 8px 8px;
+}
+#register_link {
+  grid-column: 1/-1;
+  justify-self: center;
+}
+#registerlink {
+  text-decoration: none;
+}
+label {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+#id_username {
+  border-radius: 5px;
+  height: 18px;
+  width: 155px;
+}
+#id_pwd {
+  border-radius: 5px;
+  height: 18px;
+  width: 155px;
+}
+
+#header {
+  margin: 10px;
+  background-color: #2cde5c;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+#profile {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  align-self: center;
+  justify-self: center;
+}
+#profile_link {
+  text-decoration: none;
+  color: black;
+}
+.links {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+#user_body {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin: 15px;
+  padding: 20px;
+}
+.farmer_links {
+  border-radius: 15px;
+  background-color: aquamarine;
+  font-size: 25px;
+  padding: 10px;
+  align-self: center;
+  margin: 10px;
+}
+#seller_link {
+  background-color: aquamarine;
+}
+#lab_link {
+  background-color: aquamarine;
+}
+.lab_names {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 40%;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2px;
+  border: 1px black solid;
+  padding: 5px;
+  margin: 3px;
+}
+#labs_list {
+  border-width: 1px solid black;
+}
+#name {
+  font-size: 30px;
+  padding: 15px;
+}
+.bookings {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25px;
+  row-gap: 5px;
+  column-gap: 3px;
+}
+#bookings_list {
+  border-width: 1px solid black;
+}
+#weather {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+#weather_div {
+  background-color: aqua;
+  padding: 3px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+#temp {
+  background-color: #fc6915;
+  padding: 2px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#farmerind_body {
+  background-image: url("{{ STATIC_URL }}plant1.jpg");
+}
+#bookingform {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  padding: 20px;
+  margin: 5px;
+  row-gap: 8px;
+}
+#booking_form {
+  background-color: mediumseagreen;
+  border-radius: 20px;
+}
+#booktest_btn {
+  grid-column: 1/-1;
+  height: 40px;
+  width: 120px;
+  justify-self: center;
+  border-radius: 15px;
+}
+#avai_labs {
+  font-size: 25px;
+  margin-left: 40%;
+}
+#sellerreg {
+  padding: 15px;
+  margin: 5px;
+}
+#seller_reg_form {
+  background-color: #eee01c;
+  display: flex;
+  justify-content: center;
+  row-gap: 7px;
+}
+#seller_register_link {
+  height: 30px;
+  width: 70px;
+}
+#profile_body {
+  display: flex;
+  justify-content: center;
+}
+#profile_table {
+  font-size: 30px;
+}
+.prof_con {
+  padding: 6px;
+}

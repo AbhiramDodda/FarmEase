@@ -1,0 +1,119 @@
+#login_form {
+  display: grid;
+  grid-template-columns: 250px 150px;
+  row-gap: 7px;
+}
+.errorlist {
+  display: none;
+}
+#login_btn {
+  grid-column: 1/-1;
+  justify-self: center;
+  height: 30px;
+  width: 155px;
+  border-radius: 15px;
+}
+#login_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+  background-color: rgb(211, 211, 211);
+  border-radius: 15px;
+  border-width: 1px solid black;
+  padding: 16px 8px 8px 8px;
+}
+#register_link {
+  grid-column: 1/-1;
+  justify-self: center;
+}
+#registerlink {
+  text-decoration: none;
+}
+label {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#id_username {
+  border-radius: 5px;
+  height: 18px;
+  width: 155px;
+}
+#id_pwd {
+  border-radius: 5px;
+  height: 18px;
+  width: 155px;
+}
+#register_link {
+  grid-column: 1/-1;
+  justify-self: center;
+}
+#registerlink {
+  text-decoration: none;
+}
+#header {
+  margin: 10px;
+  background-color: #2cde5c;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+#name {
+  font-size: 30px;
+  padding: 10px;
+}
+#profile {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  align-self: center;
+  justify-self: center;
+}
+#profile_link {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+.labuser_links {
+  background-color: rgb(179, 148, 11);
+  margin: 10px;
+  border-radius: 15px;
+  padding: 10px;
+  align-self: center;
+}
+.links {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+#user_body {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 5px;
+}
+.farmer_links {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+#seller_link {
+  background-color: azure;
+}
+#lab_link {
+  background-color: aquamarine;
+}
+.booking {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 40%;
+  grid-template-rows: 30px;
+  row-gap: 5px;
+  justify-items: center;
+  border-width: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+}
+#table {
+  border-width: 1px solid black;
+}

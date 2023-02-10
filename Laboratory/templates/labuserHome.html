@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="{% static 'labstyles.css' %}" rel="stylesheet" />
+    <title>{{ fname }}</title>
+  </head>
+  <body>
+    <section id="header">
+      <div id="farmer_name">
+        <p id="name">Namaste {{ labname }}</p>
+      </div>
+      <div id="profile">
+        <a href="profile/" id="profile_link">Profile</a>
+      </div>
+    </section>
+    <section id="user_body">
+      <div id="chemicals_shop" class="labuser_links">
+        <a
+          href="https://in.carbanio.com/chemicals/laboratory-chemicals"
+          class="links"
+          >Shop here</a
+        >
+      </div>
+      <div id="bookings" class="labuser_links">
+        <a href="bookings/" class="links">Your Bookings</a>
+      </div>
+    </section>
+  </body>
+</html>

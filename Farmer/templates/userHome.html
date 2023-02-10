@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="{% static 'farmerstyles.css' %}" rel="stylesheet" />
+    <title>{{ fname }}</title>
+  </head>
+  <body>
+    <section id="header">
+      <div id="farmer_name">
+        <p id="name">Namaste {{ fname }}</p>
+      </div>
+      <div id="profile">
+        <a href="profile/" id="profile_link">Profile {{ uname }}</a>
+      </div>
+    </section>
+    <section id="weather">
+      <div id="weather_div">
+        <h1 align="center">{{ weather_disc }}</h1>
+      </div>
+      <div id="temp">
+        <h3 align="center">{{ temperature }} <sup>o</sup>C</h3>
+      </div>
+    </section>
+    <section id="user_body">
+      <div id="lab_link" class="farmer_links">
+        <a href="showlabs/" class="links">SoilCare</a>
+      </div>
+      <div id="seller_link" class="farmer_links">
+        <a href="sellerportal/" class="links">SellProducts</a>
+      </div>
+      <div id="farmers_shop" class="farmer_links">
+        <a href="https://mybageecha.com/pages/buy-plants-online" class="links"
+          >Shop Here</a
+        >
+      </div>
+    </section>
+  </body>
+</html>
