@@ -2,7 +2,7 @@
 
 ### A project to bring farmers onto an integrated platform 
 
-##Farmer side
+## Farmer side
 
 1. index page asks for login or register
 2. If registering then details are to be filled and username of farmer is generated using firstname, mobile number and lastname
