@@ -13,7 +13,7 @@ My mother tried to grow vegetable plants at our home. The plants used to survive
 2. Python 
 3. HTML
 4. CSS
-5. <a src="https://openweathermap.org/api">OpenWeather API</a>
+5. <a href="https://openweathermap.org/api">OpenWeather API</a>
 
 ## Farmer side
 
