@@ -24,5 +24,9 @@ My mother tried to grow vegetable plants at our home. The plants used to survive
 5. In the homepage of every farmer they are able to access SoilCare(soil test booking), Shop(fertilizers, seeds, tools etc) and FromFarm(seller registration) services.
 6. Farmer is not registered as a seller by default and left to their decision. 
 
+### Soil Care
+
+Under soil care when farmer goes to the SoilCare platform all the available soil test laboratories(registered from laboratories side) are displayed along with the IDs and location details the farmer is asked to enter labId and farmerId to book the test and once booked farmers are able to see all the tests they booked. 
+
 ### Farmer Databses 
 There are two tables to store Farmer data. One table stores the farmer credentials and the other stores the seller data if farmer registers as a seller.
