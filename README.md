@@ -1,4 +1,4 @@
-# <center> FarmEase </center>
+# FarmEase
 
 ### Ststus: Developing
 
