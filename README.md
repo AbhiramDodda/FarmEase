@@ -1,4 +1,4 @@
-# FarmEase
+# <center> FarmEase </center>
 
 ### Ststus: Developing
 
@@ -11,8 +11,8 @@ Lack of necessary nutrients and care that has to be taken apart from what we wer
 ### Technologies used:
 1. DJango framework
 2. Python 
-3. HTML
-4. CSS
+3. HTML5
+4. CSS3
 5. <a href="https://openweathermap.org/api">OpenWeather API</a>
 
 ## Farmer side
@@ -24,6 +24,9 @@ Lack of necessary nutrients and care that has to be taken apart from what we wer
 5. In the homepage of every farmer they are able to access SoilCare(soil test booking), Shop(fertilizers, seeds, tools etc) and FromFarm(seller registration) services.
 6. Farmer is not registered as a seller by default and left to their decision. 
 7. Weather is displayed on the homepage of farmers. Weather is obtaines through OpenWeather API.
+
+#### UserId generation Algorithm
+As user provides his firstname, lastname and mobile number the user id is generated as a string composing of first three letters of first name, four digits from index 3 to 6 in mobile number and last letter of lastname 
 
 ### Soil Care
 
@@ -39,4 +42,4 @@ There are two tables to store Farmer data. One table stores the farmer credentia
 
 ### FromFarm
 
-In FromFarm any buyer can visit the page and can look for the products along with the farmer contact details. The direct contact with farmers is provided so as to eliminate mediation which is a major cause for price increment and production fluctuations.
+In FromFarm any buyer can visit the page and can look for the products along with the farmer contact details. The direct contact with farmers is provided so as to eliminate mediation which is a major cause for price increment and production fluctuations. All the farmers who registered themselves as sellers on Farmer side are added to Seller database and the details are displayed on FromFarm website.
